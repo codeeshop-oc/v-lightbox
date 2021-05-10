@@ -11,11 +11,11 @@
                 <button class="btn btn-outline-danger btn-sm lb-modal-close" @click="close">
                     <i class="fas far fa-times"></i>
                 </button>
-                <button class="btn btn-outline-primary lb-modal-prev" @click="prev">
+                <button v-if="items.length>1" class="btn btn-outline-primary lb-modal-prev" @click="prev">
                     <i class="fas far fa-angle-left fa-2x"></i>
 
                 </button>
-                <button class="btn btn-outline-primary lb-modal-next" @click="next">
+                <button v-if="items.length>1" class="btn btn-outline-primary lb-modal-next" @click="next">
                     <i class="fas far fa-angle-right fa-2x"></i>
                 </button>
 

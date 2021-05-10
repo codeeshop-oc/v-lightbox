@@ -8,7 +8,7 @@
     "dev": "cross-env NODE_ENV=development webpack --progress --watch --colors",
     "prod": "cross-env NODE_ENV=production webpack -p --watch --progress --colors",
     "start": "node ./dist/app.js",
-    "prepare": "npm run build"
+    "prepare": "npm run prod"
   },
   "repository": {
     "type": "git",
@@ -48,7 +48,7 @@
     "mini-css-extract-plugin": "^0.9.0",
     "node-sass": "^4.14.0",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
-    "postcss-loader": "^3.0.0",
+    "postcss-loader": "^3.0.0",prod
     "sass-loader": "^8.0.2",
     "style-loader": "^1.2.0",
     "stylus": "^0.54.7",

@@ -8,7 +8,7 @@
     "dev": "cross-env NODE_ENV=development webpack --progress --watch --colors",
     "prod": "cross-env NODE_ENV=production webpack -p --watch --progress --colors",
     "start": "node ./dist/app.js",
-    "prepare": "npm run prod"
+    "prepare": "npm run dev"
   },
   "repository": {
     "type": "git",

@@ -106,14 +106,14 @@
 }
 
 .lb-modal-close {
-    position: absolute;
+    position: absolute !important;
     right: 20px;
     top: 20px;
     color: #fff;
 }
 
 .lb-modal-next, .lb-modal-prev {
-    position: absolute;
+    position: absolute !important;
     top: 50%;
     left: 20px;
     margin-top: -25px;
